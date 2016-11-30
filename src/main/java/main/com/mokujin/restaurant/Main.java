@@ -8,7 +8,7 @@ public class Main {
         System.out.println("All employees: ");
         employeeDao.getAll().forEach(System.out::println);
 
-        System.out.println("Employee with id 3: ");
-        System.out.println(employeeDao.load(3));
+        System.out.println("Employee with id 2: ");
+        System.out.println(employeeDao.load(2));
     }
 }
